@@ -7,8 +7,8 @@ import (
 )
 
 func TestScript(t *testing.T) {
-	fmt.Println("waiting for test script...will take 3 seconds")
+	t.Log("waiting for test script...will take 3 seconds")
 	time.Sleep(3 * time.Second)
-	fmt.Println("Test script executed")
+	t.Log("Test script executed")
 
 }
